@@ -142,34 +142,34 @@
 // task 6
 
 
-let input;
-const numbers = [];
-let total = 0;
+// let input;
+// const numbers = [];
+// let total = 0;
 
-while (true) {
-  input = prompt('Введіть число');
+// while (true) {
+//   input = prompt('Введіть число');
 
-  if (input === null) {
-    break;
-  }
+//   if (input === null) {
+//     break;
+//   }
 
-  const number = Number(input);
+//   const number = Number(input);
 
-  if (Number.isNaN(number)) {
-    alert('Було введено не число, спробуйте ще раз');
-    continue;
-  }
+//   if (Number.isNaN(number)) {
+//     alert('Було введено не число, спробуйте ще раз');
+//     continue;
+//   }
 
-  numbers.push(number);
-}
+//   numbers.push(number);
+// }
 
-if (numbers.length > 0) {
-  for (const number of numbers) {
-    total += number;
-  }
+// if (numbers.length > 0) {
+//   for (const number of numbers) {
+//     total += number;
+//   }
 
-  console.log(`Загальна сума чисел дорівнює ${total}`);
-}
+//   console.log(`Загальна сума чисел дорівнює ${total}`);
+// }
 
 
 
