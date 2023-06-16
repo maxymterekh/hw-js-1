@@ -66,6 +66,73 @@
 
 // task 4
 
+
+// const buttonRef = document.querySelector("[data-button]");
+
+// buttonRef.addEventListener("click", showInfo);
+
+// function showInfo() {
+//     console.log("hello world!")
+// }
+
+
+// task 5
+
+// const buttonClickCount = document.querySelector("[data-button]")
+
+// buttonClickCount.addEventListener("click", clickCounter)
+
+// let clickCount = 0;
+
+// function clickCounter() {
+//     clickCount++;
+//     console.log(clickCount)
+    
+// }
+
+// task 6
+
+
+// const applyCallbackToEachElement = function (arr, callback) {
+//     const masResult = [];
+
+//    for(let i = 0; i < arr.length; i++) {
+//     const callBackResult = callback(arr[i])
+//     masResult.push(callBackResult)
+//    }
+
+//    return masResult;
+
+// }
+
+// const arr = [1, 2, 3, 4, 5];
+
+// const squareCallback = function(number) {
+//     return number / 10;
+// }; 
+
+// const result = applyCallbackToEachElement(arr, squareCallback);
+
+// console.log(result); 
+
+// task 7
+
+// const calculateDiscountedPrice = function (price, discount, callback) {
+//     const discountedPrice = price - (price * discount) / 100; 
+  
+//     return  callback(discountedPrice); 
+//   };
+  
+//   const showDiscountedPrice = function (discountedPrice) {
+//     console.log('Discounted price:', discountedPrice);
+//   };
+  
+//   calculateDiscountedPrice(100, 10, showDiscountedPrice) 
+
+
+
+
+
   
   
   
